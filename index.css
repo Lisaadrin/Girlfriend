@@ -1,0 +1,51 @@
+body {
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXZxZHgyODg4emdtZnV1OTdsbDhnZ2JyYTgwcGRtdjVnZXducHJwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ujZtlj1Y7wXyE/giphy.gif");
+  background-size: cover;
+  font-family: inspirational;
+  font-size: 50px;
+}
+#girlfriend {
+  font-family: inspirational;
+  width: 200px;
+  height: 80px;
+  font-size: 30px;
+  color: #a7a7a7;
+  padding: 10px 20px;
+  border-radius: 45%;
+  background-color: #373737;
+  border: 5px solid #373737;
+  margin-top: 0px;
+}
+a:hover {
+  text-decoration: underline;
+  font-size: 32px;
+}
+.bottom {
+  margin-top: 250px;
+}
+.soul {
+  display: flex;
+  flex-direction: column;
+
+  width: 700px;
+  height: 600px;
+  color: #a7a7a7;
+  text-shadow: 0px 0px 5px black;
+  row-gap: 50px;
+}
+h1 {
+  margin: 50px 0;
+  white-space: nowrap;
+}
+@font-face {
+  font-family: inspirational;
+  src: url(dick.otf);
+}
+.females {
+  border-bottom: 5px solid #373737;
+  border-radius: 15%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
