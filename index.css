@@ -7,7 +7,6 @@ body {
   margin: 0;
   min-height: 100dvh;
   background-repeat: no-repeat;
-  background-position: start;
 }
 #girlfriend {
   font-family: inspirational;
@@ -32,8 +31,9 @@ a:hover {
   display: flex;
   flex-direction: column;
 
-  width: 700px;
-  height: 600px;
+  max-width: 700px;
+  width: 100%;
+  min-height: 600px;
   color: #a7a7a7;
   text-shadow: 0px 0px 5px black;
   row-gap: 50px;
